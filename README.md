@@ -1,6 +1,6 @@
 # black-box-defense
 
-Experiments to defend the model against state-of-the-art Black-box attacks (HopSkipJumpAttack [1] and GeoDA[2]).
+Experiments on CIFAR10 trained on ResNet18 to defend the network against state-of-the-art Black-box attacks (HopSkipJumpAttack [1] and GeoDA[2]).
 
 [1] Chen, Jianbo, Michael I. Jordan, and Martin J. Wainwright. "Hopskipjumpattack: A query-efficient decision-based attack." 2020 IEEE Symposium on Security and Privacy (SP). IEEE, 2020.
 
