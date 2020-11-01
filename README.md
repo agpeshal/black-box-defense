@@ -9,17 +9,17 @@ Experiments on CIFAR10 trained on ResNet18 to defend the network against state-o
 ```bash
 ├── deepfool.py		# DeepFool attack
 ├── helpers.py		# helper functions (primarliy for debugging)
-├── hsja.py			# HSJA attack
+├── hsja.py		# HSJA attack
 ├── models
 │   ├── base
 │   │   └── ckpt.pth	# pretrained standard model
 │   └── curvature
-│       ├── CURE.py		# main defense implementation
+│       ├── CURE.py	# main defense implementation
 │       └── robust.pth	# defended model
-├── resnet.py			# Resnet architecture definitions
-├── train.py			# train to defend against attacks
+├── resnet.py		# Resnet architecture definitions
+├── train.py		# train to defend against attacks
 └── utils
-    └── utils.py		# utility functions
+    └── utils.py	# utility functions
 ```
 
 
