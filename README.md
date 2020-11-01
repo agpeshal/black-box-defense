@@ -37,13 +37,11 @@ python hsja.py --model base --iter 10
 
 One can also how well does a white-box attack like DeepFool (Moosavi *et al*) perform
 
-![](images/deepfool.png)
-
-```ba
+```bash
 python deepfool.py --model base --iter 10
 ```
 
-
+![](images/deepfool.png)
 
 ### Defense
 
